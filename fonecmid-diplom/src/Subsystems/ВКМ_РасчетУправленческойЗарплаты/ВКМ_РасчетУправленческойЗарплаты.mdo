@@ -3,7 +3,7 @@
   <name>ВКМ_РасчетУправленческойЗарплаты</name>
   <synonym>
     <key>ru</key>
-    <value>ВКМ расчет управленческой зарплаты</value>
+    <value>Расчет управленческой зарплаты</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
