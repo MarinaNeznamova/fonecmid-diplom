@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7769f4d-e4c9-4365-b7f5-14a748e61a5d">
+  <name>ВКМ_РеализацииПоАбонентскимДоговорам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализации по абонентским договорам</value>
+  </synonym>
+</mdclass:Role>
