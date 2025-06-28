@@ -17,9 +17,9 @@
 		</selection>
 		<filter>
 			<item xsi:type="FilterItemComparison">
-				<left xsi:type="dcscor:Field">Объект.ОтпускаСотрудников.Дни</left>
-				<comparisonType>Greater</comparisonType>
-				<right xsi:type="xs:decimal">28</right>
+				<left xsi:type="dcscor:Field">Объект.ОтпускаСотрудников.Больше28</left>
+				<comparisonType>Equal</comparisonType>
+				<right xsi:type="xs:boolean">true</right>
 			</item>
 		</filter>
 		<appearance>
