@@ -60,6 +60,15 @@
         <value>2</value>
       </code>
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Начисление</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ПремияПроцентом</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</base>
+    </items>
+    <items id="ecb51238-2684-43ea-9416-bf74e024c756">
+      <name>ПремияПроцентом</name>
+      <description>Премия процентом</description>
+      <code xsi:type="core:StringValue">
+        <value>3</value>
+      </code>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

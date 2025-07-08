@@ -47,7 +47,8 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
 	</parameter>
 	<parameter>
 		<name>Год</name>
@@ -67,6 +68,7 @@
 		</valueType>
 		<value xsi:type="xs:decimal">0</value>
 		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
 	</parameter>
 	<parameter>
 		<name>Дата</name>
@@ -85,6 +87,7 @@
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>true</useRestriction>
 		<expression>ВКМ_ЧислоВДату.ЧислоВКонецГода(&amp;Год)</expression>
+		<availableAsField>false</availableAsField>
 	</parameter>
 	<template>
 		<name>Макет1</name>
@@ -197,8 +200,13 @@
 		<template>Макет1</template>
 	</groupTemplate>
 	<settingsVariant>
-		<dcsset:name>Основной</dcsset:name>
-		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:name>Расход запланированных отпусков</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Расход запланированных отпусков</v8:content>
+			</v8:item>
+		</dcsset:presentation>
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:selection>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">

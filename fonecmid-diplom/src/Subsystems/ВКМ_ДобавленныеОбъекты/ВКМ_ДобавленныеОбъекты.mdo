@@ -14,7 +14,7 @@
   <content>Constant.ВКМ_ИдентификаторГруппыДляОповещения</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>
   <content>Constant.ВКМ_НоменклатураРаботыСпециалиста</content>
-  <content>Role.ВКМ_ОбслуживаниеКлиентов</content>
+  <content>Role.ВКМ_ОбслуживаниеКлиентовСпециалист</content>
   <content>CommonModule.ВКМ_Телеграм</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>CommandGroup.ВКМ_Справочники</content>
